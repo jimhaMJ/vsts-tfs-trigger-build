@@ -2,8 +2,9 @@
     "manifestVersion": 1,
     "id": "TriggerNewBuild",
     "name": "Trigger New Build",
-    "version": "0.0.55",
+    "version": "0.0.56",
     "publisher": "jihedmhadhbi",
+    "public": true,
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -41,14 +42,18 @@
     ],
     "links": {
         "support": {
-            "uri": "https://github.com/jimhaMJ/vsts-trigger-build-task/issues"
+            "uri": "https://github.com/jimhaMJ/vsts-tfs-trigger-build/issues"
         },
         "repository": {
-            "uri": "https://github.com/jimhaMJ/vsts-trigger-build-task"
+            "uri": "https://github.com/jimhaMJ/vsts-tfs-trigger-build"
         },
         "issues": {
-            "uri": "https://github.com/jimhaMJ/vsts-trigger-build-task/issues"
+            "uri": "https://github.com/jimhaMJ/vsts-tfs-trigger-build/issues"
         }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/jimhaMJ/vsts-tfs-trigger-build"
     },
     "screenshots": [
         {
